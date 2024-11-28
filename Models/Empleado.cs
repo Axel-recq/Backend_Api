@@ -33,8 +33,5 @@ public partial class Empleado
 
     public virtual ICollection<Venta> Venta { get; set; } = new List<Venta>();
 
-    public static implicit operator Empleado(Empleado v)
-    {
-        throw new NotImplementedException();
-    }
+   
 }
